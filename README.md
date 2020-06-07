@@ -1,7 +1,7 @@
-# AI Notebooks
+# Data Science Notebooks
 
 
-This is a sandbox type repository for my personal AI related projects. Nothing special, just a beginner trying to learn machine learning and some data science.
+This is a sandbox type repository for my personal data science related learning projects. Nothing special, just a beginner trying to learn machine learning and some data science.
 
 ## About My Setup
 
