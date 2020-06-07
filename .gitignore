@@ -39,3 +39,6 @@ venv.bak/
 
 # IPython notebook
 .ipynb_checkpoints
+
+# VSCode
+/.vscode
