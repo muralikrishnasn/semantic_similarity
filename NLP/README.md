@@ -13,3 +13,5 @@ A list of links that I am using as a reference and as a learning source for this
 - [From Bag of Words to Transformers: 10 Years of Practical Natural Language Processing](https://medium.com/@Zelros/from-bag-of-words-to-transformers-10-years-of-practical-natural-language-processing-8ccc238f679a)
 - [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
 - [NLP Tutorial (Github)](https://github.com/lyeoni/nlp-tutorial)
+- [PyTorch for Beginners – Building Neural Networks](https://rubikscode.net/2020/06/15/pytorch-for-beginners-building-neural-networks/) 
+- [PyTorch for Beginners – Basic Concepts](https://rubikscode.net/2020/06/08/pytorch-for-beginners-basic-concepts/)
