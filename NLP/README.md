@@ -15,3 +15,8 @@ A list of links that I am using as a reference and as a learning source for this
 - [NLP Tutorial (Github)](https://github.com/lyeoni/nlp-tutorial)
 - [PyTorch for Beginners – Building Neural Networks](https://rubikscode.net/2020/06/15/pytorch-for-beginners-building-neural-networks/) 
 - [PyTorch for Beginners – Basic Concepts](https://rubikscode.net/2020/06/08/pytorch-for-beginners-basic-concepts/)
+
+### Datasets
+
+The first dataset I am going to look at is [STSbenchmark](https://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark).
+
