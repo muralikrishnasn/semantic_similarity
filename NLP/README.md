@@ -32,5 +32,5 @@ A list of links that I am using as a reference and as a learning source for this
 
 ### Datasets
 
-The first dataset I am going to look at is [STSbenchmark](https://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark).
+- [STSbenchmark](https://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark).
 
