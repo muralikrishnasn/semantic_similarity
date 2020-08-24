@@ -22,13 +22,8 @@ A list of links that I am using as a reference and as a learning source for this
 - [fastai course lesson 4](https://course.fast.ai/videos/?lesson=4) (About NLP)
 - [fastai NLP](https://www.fast.ai/2019/07/08/fastai-nlp/) - [Youtube playlist](https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9) - [Github repo](https://github.com/fastai/course-nlp)
 - [The Unreasonable Progress of Deep Neural Networks in Natural Language Processing (NLP) ](https://blog.exxactcorp.com/the-unreasonable-progress-of-deep-neural-networks-in-natural-language-processing-nlp)
-- [Chat Bot With PyTorch - NLP And Deep Learning - Python Tutorial (Part 1)](https://www.youtube.com/watch?v=RpWeNzfSUHw&list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg&utm_source=aidigest&utm_medium=email&utm_campaign=108)
 - [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
 - [NLP Tutorial (Github)](https://github.com/lyeoni/nlp-tutorial)
-- [PyTorch for Beginners – Building Neural Networks](https://rubikscode.net/2020/06/15/pytorch-for-beginners-building-neural-networks/) 
-- [PyTorch for Beginners – Basic Concepts](https://rubikscode.net/2020/06/08/pytorch-for-beginners-basic-concepts/)
-
-
 
 ### Datasets
 
