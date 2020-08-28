@@ -2,18 +2,24 @@
 
 ## Sentences contain same words, but have different meaning
 
-1. "The Board of Directors should be composed of five to ten members elected by the General Meeting"
-2. "A medium-density plywood board with a smooth finish that accepts paint well and can be used in many applications"
-3. 
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+Connecting words are in bold.
 
-## Synonym sentence pairs
+Same meaning:
+
+1. "She angered me with her inappropriate comments, rumor-spreading, and disrespectfulness at the **formal** dinner **table**."
+2. "She made me **angry** when she was rude at dinner."
+3. "Her impoliteness, gossiping, and **general** lack of respect at dinner infuriated me."
+4. "I was mad when she started **spreading** rumors, making inappropriate comments, and disrespecting other guests at our dinner."
+---
+
+Different meaning:
+
+5. "The company requires a **formal** dress code during work hours"
+6. "President Donald Trump called Joe Biden's running mate Kamala Harris **'angry'** and 'mad'"
+7. "The influenza is **spreading** from **table** surfaces in the restaurants." 
+8. "The Coffee Test is one of the tests for human-level Artificial **General** Intelligence."
+
+## Synonyms/Paraphrases (Different spelling, same meaning)
 
 1.
 * "The need for software developers has gone up by 50% in 5 years"
@@ -24,19 +30,38 @@
 * "PCs came into shops in the late seventies"
 
 3.
-* 
-* 
+* "Symptoms of influenza include fever and nasal congestion."
+* "A stuffy nose and elevated temperature are signs you may have the flu."
 
 4.
-* 
-* 
+* "He has tons of stuff to throw away."
+* "He needs to get rid of a lot of junk."
 
 5.
-* 
-* 
+* "Her life spanned years of incredible change for women as they gained more rights than ever before."
+* "She lived through the exciting era of women's liberation."
 
-## Polysemic sentences
+## Homonyms (same spelling/words, but different meaning)
 
+1.
+* "She lies on the couch"
+* "She lies to the coach"
+
+2.
+* "Train muscles twice a week"
+* "Train departs twice a week"
+
+3.
+* "I want to book a room"
+* "I want to read a book in my room"
+
+4.
+* "These plants are huge" (plant = flower etc)
+* "Tesla plants are huge" (plant = factory)
+
+5.
+* "I saw a man" 
+* "A man with a saw"
 
 ## Semantic search
 
@@ -59,4 +84,4 @@
 * **Politics:** "A political system is a framework which defines acceptable political methods within a society."
 * **Food:** "This meal has summer dinner written all over it."
 * **Science:** "Science is based on research, which is commonly conducted in academic and research institutions as well as in government agencies and companies"
-* **Finance:** 
+* **Finance:** "Stocks mixed after Powell's inflation plan"
