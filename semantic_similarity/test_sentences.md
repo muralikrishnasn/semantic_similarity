@@ -52,7 +52,7 @@ Different meaning:
 
 3.
 * "I want to book a room"
-* "I want to read a book in my room"
+* "I want to read a book a room"
 
 4.
 * "These plants are huge" (plant = flower etc)
@@ -60,7 +60,7 @@ Different meaning:
 
 5.
 * "I saw a man" 
-* "A man with a saw"
+* "A man has a saw"
 
 ## Semantic search
 
