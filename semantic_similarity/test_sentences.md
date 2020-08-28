@@ -21,46 +21,46 @@ Different meaning:
 ## Synonyms/Paraphrases (Different spelling, same meaning)
 
 1.
-    * "The need for software developers has gone up by 50% in 5 years"
-    * "The demand for programmers has doubled during the last five years"
+* "The need for software developers has gone up by 50% in 5 years"
+* "The demand for programmers has doubled during the last five years"
 
 2.
-    * "Personal computers entered the market in 1977"
-    * "PCs came into shops in the late seventies"
+* "Personal computers entered the market in 1977"
+* "PCs came into shops in the late seventies"
 
 3.
-    * "Symptoms of influenza include fever and nasal congestion."
-    * "A stuffy nose and elevated temperature are signs you may have the flu."
+* "Symptoms of influenza include fever and nasal congestion."
+* "A stuffy nose and elevated temperature are signs you may have the flu."
 
 4.
-    * "He has tons of stuff to throw away."
-    * "He needs to get rid of a lot of junk."
+* "He has tons of stuff to throw away."
+* "He needs to get rid of a lot of junk."
 
 5.
-    * "Her life spanned years of incredible change for women as they gained more rights than ever before."
-    * "She lived through the exciting era of women's liberation."
+* "Her life spanned years of incredible change for women as they gained more rights than ever before."
+* "She lived through the exciting era of women's liberation."
 
 ## Homonyms (same spelling/words, but different meaning)
 
 1.
-    * "She lies on the couch"
-    * "She lies to the coach"
+* "She lies on the couch"
+* "She lies to the coach"
 
 2.
-    * "Train muscles twice a week"
-    * "Train departs twice a week"
+* "Train muscles twice a week"
+* "Train departs twice a week"
 
 3.
-    * "I want to book a room"
-    * "I want to read a book in my room"
+* "I want to book a room"
+* "I want to read a book in my room"
 
 4.
-    * "These plants are huge" (plant = flower etc)
-    * "Tesla plants are huge" (plant = factory)
+* "These plants are huge" (plant = flower etc)
+* "Tesla plants are huge" (plant = factory)
 
 5.
-    * "I saw a man" 
-    * "A man with a saw"
+* "I saw a man" 
+* "A man with a saw"
 
 ## Semantic search
 
