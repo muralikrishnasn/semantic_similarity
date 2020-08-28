@@ -2,20 +2,19 @@
 
 ## Sentences contain same words, but have different meaning
 
-Connecting words are in bold.
+Connecting words are bolded.
 
 Same meaning:
 
 1. "She angered me with her inappropriate comments, rumor-spreading, and disrespectfulness at the **formal** dinner **table**."
 2. "She made me **angry** when she was rude at dinner."
 3. "Her impoliteness, gossiping, and **general** lack of respect at dinner infuriated me."
-4. "I was mad when she started **spreading** rumors, making inappropriate comments, and disrespecting other guests at our dinner."
----
+4. "I was **mad** when she started **spreading** rumors, making inappropriate comments, and disrespecting other guests at our dinner."
 
 Different meaning:
 
 5. "The company requires a **formal** dress code during work hours"
-6. "President Donald Trump called Joe Biden's running mate Kamala Harris **'angry'** and 'mad'"
+6. "President Donald Trump called Joe Biden's running mate Kamala Harris **'angry'** and **'mad'**"
 7. "The influenza is **spreading** from **table** surfaces in the restaurants." 
 8. "The Coffee Test is one of the tests for human-level Artificial **General** Intelligence."
 
