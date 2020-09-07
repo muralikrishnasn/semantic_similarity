@@ -9,14 +9,14 @@ from sentence_transformers import SentenceTransformer
 from scipy.spatial import distance
 
 
-def tfidf(sentences):
+def tfidf_vectorizer(sentences):
     vectorizer = TfidfVectorizer()
     sentence_vectors = vectorizer.fit_transform(sentences).toarray().tolist()
 
     return sentence_vectors
 
 
-def fasttext_vec(sentences):
+def fasttext_vectorizer(sentences):
     fasttext.util.download_model('en', if_exists='ignore')  # English
     ft = fasttext.load_model('cc.en.300.bin')
     sentence_vectors = [ft.get_sentence_vector(x) for x in sentences]
@@ -24,21 +24,21 @@ def fasttext_vec(sentences):
     return sentence_vectors
 
 
-def laser(sentences):
+def laser_embeddings(sentences):
     laser = Laser()
     sentence_embeddings = laser.embed_sentences(sentences, lang='en')
 
     return sentence_embeddings
 
 
-def sentence_bert(sentences):
+def bert_embeddings(sentences):
     model = SentenceTransformer('bert-large-nli-stsb-mean-tokens')
     sentence_embeddings = model.encode(sentences)
 
     return sentence_embeddings
 
 
-def use(sentences):
+def use_embeddings(sentences):
     module_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
     model = hub.load(module_url)
     sentence_embeddings = model(sentences)
@@ -46,5 +46,7 @@ def use(sentences):
     return sentence_embeddings
 
 
-def cosine_distance(first, second):
-    return distance.cosine(first, second)
+def cosine_similarity(first, second):
+    similarity = 1 - distance.cosine(first, second)
+
+    return similarity
