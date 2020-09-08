@@ -1,30 +1,25 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 import fasttext
 import fasttext.util
-import tensorflow as tf
 import tensorflow_hub as hub
 
 from laserembeddings import Laser
 from sentence_transformers import SentenceTransformer
 from scipy.spatial import distance
-import pandas as pd
 
 
 def tfidf_vectorizer(sentences):
-    train_df = pd.pandas.read_table(
-        '../sts_similarities/stsbenchmark/sts-train.csv',
-        error_bad_lines=False,
-        skip_blank_lines=True,
-        usecols=[5, 6],
-        names=["s1", "s2"])
-
-    train_sentences = []
-
-    for row in train_df.itertuples(index=False):
-        train_sentences.extend((str(row[0]), str(row[1])))
+    data = []
+    with open('stsbenchmark/sts-train.csv') as f:
+        for line in f.read().splitlines():
+            splits = line.split('\\t')
+            data.append({
+                's1': splits[5],
+                's2': splits[6]
+            })
 
     vectorizer = TfidfVectorizer()
-    vectorizer.fit(train_sentences)
+    vectorizer.fit(data)
 
     sentence_vectors = vectorizer.transform(sentences).toarray().tolist()
 
