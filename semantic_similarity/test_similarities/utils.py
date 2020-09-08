@@ -13,10 +13,7 @@ def tfidf_vectorizer(sentences):
     with open('stsbenchmark/sts-train.csv') as f:
         for line in f.read().splitlines():
             splits = line.split('\\t')
-            data.append({
-                's1': splits[5],
-                's2': splits[6]
-            })
+            data.extend((splits[5], splits[6]))
 
     vectorizer = TfidfVectorizer()
     vectorizer.fit(data)
