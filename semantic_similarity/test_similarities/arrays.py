@@ -13,7 +13,7 @@ synonyms = ["The need for software developers has gone up by 50% in 5 years", "T
 
 # Homonyms (same spelling/words, but different meaning)
 homonyms = ["She lies on the couch", "She lies to the coach", "Train muscles twice a week", "Train departs twice a week",
-            "I want to book a room", "I want to read a book a room", "These plants are huge", "Tesla plants are huge", "I saw a man", "A man has a saw"]
+            "I want to book a room", "I want to read a book in a room", "These plants are huge", "Tesla plants are huge", "I saw a man", "A man has a saw"]
 
 
 # Semantic search

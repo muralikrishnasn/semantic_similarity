@@ -52,7 +52,7 @@ Different meaning:
 
 3.
 * "I want to book a room"
-* "I want to read a book a room"
+* "I want to read a book in a room"
 
 4.
 * "These plants are huge" (plant = flower etc)
