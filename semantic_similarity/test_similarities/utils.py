@@ -12,9 +12,10 @@ def cosine_similarity(first, second):
 
 def plot_similarity(labels_y, labels_x, features_y, features_x):
     corr = np.inner(features_y, features_x)
+    corr_norm = corr / np.linalg.norm(corr)
     sns.set(font_scale=1.2)
     g = sns.heatmap(
-        corr,
+        corr_norm,
         xticklabels=labels_x,
         yticklabels=labels_y,
         vmin=0,
