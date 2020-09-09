@@ -22,4 +22,3 @@ def plot_similarity(labels_y, labels_x, features_y, features_x):
         cmap="YlOrRd")
     g.set_xticklabels(labels_x, rotation=90)
     g.set_yticklabels(labels_y, rotation=0)
-    g.set_title("Semantic Textual Similarity")
