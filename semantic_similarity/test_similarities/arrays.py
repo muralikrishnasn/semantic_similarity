@@ -5,6 +5,9 @@ same = ["She angered me with her inappropriate comments, rumor-spreading, and di
 different = ["The company requires a formal dress code during work hours", "President Donald Trump called Joe Biden's running mate Kamala Harris 'angry' and 'mad'.",
              "The influenza is spreading from table surfaces in the restaurants.", "The Coffee Test is one of the tests for human-level Artificial General Intelligence."]
 
+same_and_diff = ["She angered me with her inappropriate comments, rumor-spreading, and disrespectfulness at the formal dinner table.", "She made me angry when she was rude at dinner.",
+                 "Her impoliteness, gossiping, and general lack of respect at dinner infuriated me.", "I was mad when she started spreading rumors, making inappropriate comments, and disrespecting other guests at our dinner.", "The company requires a formal dress code during work hours", "President Donald Trump called Joe Biden's running mate Kamala Harris 'angry' and 'mad'.",
+                 "The influenza is spreading from table surfaces in the restaurants.", "The Coffee Test is one of the tests for human-level Artificial General Intelligence."]
 
 # Synonyms/Paraphrases (Different spelling, same meaning)
 synonyms = ["The need for software developers has gone up by 50% in 5 years", "The demand for programmers has doubled during the last five years", "Personal computers entered the market in 1977", "PCs came into shops in the late seventies", "Symptoms of influenza include fever and nasal congestion.",
