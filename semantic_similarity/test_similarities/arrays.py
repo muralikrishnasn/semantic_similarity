@@ -28,9 +28,14 @@ science_search = [
     "Science is based on research, which is commonly conducted in academic and research institutions as well as in government agencies and companies"]
 finance_search = ["Stocks mixed after Powell's inflation plan"]
 
-# Sentences to search from:
-search_sentences = ["The Vikings defense is already one of the best in the NFL and won’t ask much of Gladney.", "And just like we saw in both games against FC Dallas, Nashville was sharp in the defensive third and in midfield.", "This is election is a choice between President Trump’s strong stance with law and order and Joe Biden’s acquiescence to the anti-police left and siding with rioters.", "Democrats are willing to resume negotiations once Republicans start to take this process seriously.", "Made with fresh peaches, sugar, and a topping that bakes like slightly underbaked cookie dough, with crunchy sugar broiled on top.",
-                    "Is there anything better than a fresh batch of soft chocolate chip cookies?", "Scientists from 17 UK research centres are attempting to answer questions such as how long immunity lasts and why disease severity varies so much.", "Decoding goals and movement plans is hard when you don't understand the neural code in which those things are communicated.", "Dow futures up 200 points in overnight trading after the index briefly erases 2020 losses", "Wednesday’s gains put the S&P 500 up more than 58% since hitting an intraday low on March 23."]
+search = ["Tarasenko has been one of the NHL's leading scorers during his nine-year career, with 214 goals in 507 games.", "A political system is a framework which defines acceptable political methods within a society.",
+          "This meal has summer dinner written all over it.", "Science is based on research, which is commonly conducted in academic and research institutions as well as in government agencies and companies", "Stocks mixed after Powell's inflation plan"]
 
-categories = ["SPORTS", "SPORTS", "POLITICS", "POLITICS",
-              "FOOD", "FOOD", "SCIENCE", "SCIENCE", "FINANCE", "FINANCE"]
+search_categories = ["SPORTS", "POLITICS", "FOOD", "SCIENCE", "FINANCE"]
+
+# Sentences to search from:
+sentences = ["The Vikings defense is already one of the best in the NFL and won’t ask much of Gladney.", "And just like we saw in both games against FC Dallas, Nashville was sharp in the defensive third and in midfield.", "This is election is a choice between President Trump’s strong stance with law and order and Joe Biden’s acquiescence to the anti-police left and siding with rioters.", "Democrats are willing to resume negotiations once Republicans start to take this process seriously.", "Made with fresh peaches, sugar, and a topping that bakes like slightly underbaked cookie dough, with crunchy sugar broiled on top.",
+             "Is there anything better than a fresh batch of soft chocolate chip cookies?", "Scientists from 17 UK research centres are attempting to answer questions such as how long immunity lasts and why disease severity varies so much.", "Decoding goals and movement plans is hard when you don't understand the neural code in which those things are communicated.", "Dow futures up 200 points in overnight trading after the index briefly erases 2020 losses", "Wednesday’s gains put the S&P 500 up more than 58% since hitting an intraday low on March 23."]
+
+sentence_categories = ["SPORTS_1", "SPORTS_2", "POLITICS_1", "POLITICS_2",
+                       "FOOD_1", "FOOD_2", "SCIENCE_1", "SCIENCE_2", "FINANCE_1", "FINANCE_2"]
