@@ -6,21 +6,7 @@ import tensorflow_hub as hub
 from laserembeddings import Laser
 from sentence_transformers import SentenceTransformer
 from scipy.spatial import distance
-
-
-def tfidf_vectorizer(sentences):
-    data = []
-    with open('stsbenchmark/sts-train.csv') as f:
-        for line in f.read().splitlines():
-            splits = line.split('\\t')
-            data.extend((splits[5], splits[6]))
-
-    vectorizer = TfidfVectorizer()
-    vectorizer.fit(data)
-
-    sentence_vectors = vectorizer.transform(sentences).toarray().tolist()
-
-    return sentence_vectors
+import pandas as pd
 
 
 def fasttext_vectorizer(sentences):
@@ -57,3 +43,40 @@ def cosine_similarity(first, second):
     similarity = 1 - distance.cosine(first, second)
 
     return similarity
+
+
+class TfidfModel:
+
+    def __init__(self):
+        self.initialized = False
+
+    def initialize(self):
+
+        if self.initialized:
+            return
+
+        train_df = pd.pandas.read_table(
+            '../sts_similarities/stsbenchmark/sts-train.csv',
+            error_bad_lines=False,
+            skip_blank_lines=True,
+            usecols=[5, 6],
+            names=["s1", "s2"])
+
+        train_sentences = []
+
+        for row in train_df.itertuples(index=False):
+            train_sentences.extend((str(row[0]), str(row[1])))
+
+        self.vectorizer = TfidfVectorizer()
+        self.vectorizer.fit(train_sentences)
+
+        self.initialized = True
+
+    def get_sentence_vec(self, sentences):
+
+        self.initialize()
+
+        sentence_vectors = self.vectorizer.transform(
+            sentences).toarray().tolist()
+
+        return sentence_vectors
