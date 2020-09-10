@@ -1,4 +1,4 @@
-# Brainstorming different sentences to test the limits of the language models
+# Using different sentences to test the limits of the language models
 
 ## Sentences contain same words, but have different meaning
 
