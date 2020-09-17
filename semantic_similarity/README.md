@@ -18,6 +18,8 @@
 | SentenceBERT  | 87.4          |
 | USE           | 80.1          |
 
+---
+
 ## Semantic Search
 
 Using "search" sentences to find sentences with the same topic from a dictionary
@@ -50,6 +52,7 @@ TFIDF                       | Fasttext                   | LASER                
 :-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
 <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_search.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_search.svg"> |
 
+---
 
 ## Synonyms/Paraphrases (Different spelling, same meaning)
 
@@ -70,8 +73,9 @@ TFIDF                       | Fasttext                   | LASER                
 :-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
 <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_synonym.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_synonym.svg"> |
 
-## Homonyms (same spelling/words, but different meaning)
+---
 
+## Homonyms (same spelling/words, but different meaning)
 
 * **H1_a:** "She lies on the couch"
 * **H1_b:** "She lies to the coach"
@@ -89,6 +93,8 @@ TFIDF                       | Fasttext                   | LASER                
 TFIDF                       | Fasttext                   | LASER                      | SentenceBERT               | USE                        |
 :-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
 <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_homonym.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_homonym.svg"> |
+
+---
 
 ## Sentences contain same words, but have different meaning
 
