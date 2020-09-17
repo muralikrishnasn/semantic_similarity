@@ -46,11 +46,10 @@ Using "search" sentences to find sentences with the same topic from a dictionary
 
 ### Results
 
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_search.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_search.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_search.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_search.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_search.svg">
+TFIDF | Fasttext | LASER | SentenceBERT | USE |
+:-------------------------:|:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
+<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_search.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_search.svg"> |
+
 
 ## Synonyms/Paraphrases (Different spelling, same meaning)
 
@@ -67,11 +66,9 @@ Using "search" sentences to find sentences with the same topic from a dictionary
 
 ### Results
 
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_synonym.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_synonym.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_synonym.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_synonym.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_synonym.svg">
+TFIDF | Fasttext | LASER | SentenceBERT | USE |
+:-------------------------:|:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
+<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_synonym.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_synonym.svg"> |
 
 ## Homonyms (same spelling/words, but different meaning)
 
@@ -89,11 +86,9 @@ Using "search" sentences to find sentences with the same topic from a dictionary
 
 ### Results
 
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_homonym.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_homonym.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_homonym.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_homonym.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_homonym.svg">
+TFIDF | Fasttext | LASER | SentenceBERT | USE |
+:-------------------------:|:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
+<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_homonym.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_homonym.svg"> |
 
 ## Sentences contain same words, but have different meaning
 
@@ -115,8 +110,6 @@ The 4 first sentences have the same meaning, but different structure. The 4 last
 
 ### Results
 
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_samediff.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_samediff.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_samediff.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_samediff.svg">
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_samediff.svg">
+TFIDF | Fasttext | LASER | SentenceBERT | USE |
+:-------------------------:|:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
+<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_samediff.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_samediff.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_samediff.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_samediff.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_samediff.svg"> |
