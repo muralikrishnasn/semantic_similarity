@@ -1,4 +1,4 @@
-# Studying the differences between different language models
+# Studying the differences between five language models
 
 ## Models used
 

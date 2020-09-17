@@ -31,6 +31,8 @@ synonym_cat = ["S1_a", "S1_b", "S2_a", "S2_b",
 homonyms = ["She lies on the couch", "She lies to the coach", "Train muscles twice a week", "Train departs twice a week",
             "I want to book a room", "I want to read a book in a room", "These plants are huge", "Tesla plants are huge", "I saw a man", "A man has a saw"]
 
+homonym_cat = ["H1_a", "H1_b", "H2_a", "H2_b",
+               "H3_a", "H3_b", "H4_a", "H4_b", "H5_a", "H5_b"]
 
 # -----------------------------------------------------------------
 
