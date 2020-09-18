@@ -1,6 +1,6 @@
 # Studying the differences between five language models
 
-## Models used
+## Models tested here
 
 1. TFIDF
 2. FastText
