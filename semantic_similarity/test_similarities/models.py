@@ -85,7 +85,8 @@ class Tfidf:
         for row in train_df.itertuples(index=False):
             train_sentences.extend((str(row[0]), str(row[1])))
 
-        self.vectorizer = TfidfVectorizer()
+        self.vectorizer = TfidfVectorizer(
+            analyzer='char_wb', ngram_range=(1, 4))
         self.vectorizer.fit(train_sentences)
 
         self.initialized = True
