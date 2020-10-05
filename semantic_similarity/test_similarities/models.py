@@ -86,7 +86,7 @@ class Tfidf:
             train_sentences.extend((str(row[0]), str(row[1])))
 
         self.vectorizer = TfidfVectorizer(
-            analyzer='char_wb', ngram_range=(1, 4))
+            analyzer='char_wb', ngram_range=(3, 5))
         self.vectorizer.fit(train_sentences)
 
         self.initialized = True
