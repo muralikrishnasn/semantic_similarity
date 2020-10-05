@@ -10,13 +10,13 @@
 
 ## STS benchmark scores attained
 
-| Model         | Score         |
-| ------------- | -------------:|
-| TFIDF         | 71.4          |
-| Fasttext      | 55.3          |
-| LASER         | 69.4          |
-| SentenceBERT  | 87.4          |
-| USE           | 80.1          |
+| Model        | Score |
+| ------------ | ----: |
+| TFIDF        |  71.4 |
+| Fasttext     |  55.3 |
+| LASER        |  69.4 |
+| SentenceBERT |  87.4 |
+| USE          |  80.1 |
 
 ---
 
@@ -46,11 +46,18 @@ Using "search" sentences to find sentences with the same topic from a dictionary
 * **Finance 2:** "Wednesday’s gains put the S&P 500 up more than 58% since hitting an intraday low on March 23."
 
 
-### Results
+### Results (scale 0-1)
 
-TFIDF                       | Fasttext                   | LASER                      | SentenceBERT               | USE                        |
-:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_search.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_search.svg"> |
+|                                                          TFIDF                                                          |                                                        Fasttext                                                        |                                                          LASER                                                          |                                                      SentenceBERT                                                      |                                                          USE                                                          |
+| :---------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_search.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_search.svg"> |
+
+
+### Results (scal min-max)
+
+|                                                             TFIDF                                                              |                                                           Fasttext                                                            |                                                             LASER                                                              |                                                         SentenceBERT                                                          |                                                             USE                                                              |
+| :----------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_search_minmax.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_search_minmax.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_search_minmax.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_search_minmax.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_search_minmax.svg"> |
 
 ---
 
@@ -69,9 +76,9 @@ TFIDF                       | Fasttext                   | LASER                
 
 ### Results
 
-TFIDF                       | Fasttext                   | LASER                      | SentenceBERT               | USE                        |
-:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_synonym.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_synonym.svg"> |
+|                                                          TFIDF                                                           |                                                        Fasttext                                                         |                                                          LASER                                                           |                                                      SentenceBERT                                                       |                                                          USE                                                           |
+| :----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_synonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_synonym.svg"> |
 
 ---
 
@@ -90,9 +97,9 @@ TFIDF                       | Fasttext                   | LASER                
 
 ### Results
 
-TFIDF                       | Fasttext                   | LASER                      | SentenceBERT               | USE                        |
-:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_homonym.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_homonym.svg"> |
+|                                                          TFIDF                                                           |                                                        Fasttext                                                         |                                                          LASER                                                           |                                                      SentenceBERT                                                       |                                                          USE                                                           |
+| :----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_homonym.svg"> |
 
 ---
 
@@ -116,6 +123,6 @@ The 4 first sentences have the same meaning, but different structure. The 4 last
 
 ### Results
 
-TFIDF                       | Fasttext                   | LASER                      | SentenceBERT               | USE                        |
-:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |:-------------------------: |
-<img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_samediff.svg">  |  <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_samediff.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_samediff.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_samediff.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_samediff.svg"> |
+|                                                           TFIDF                                                           |                                                         Fasttext                                                         |                                                           LASER                                                           |                                                       SentenceBERT                                                       |                                                           USE                                                           |
+| :-----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_samediff.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_samediff.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_samediff.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_samediff.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_samediff.svg"> |
