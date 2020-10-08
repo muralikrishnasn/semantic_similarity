@@ -38,6 +38,11 @@ homonyms = ["She lies on the couch", "She lies to the coach", "Train muscles twi
 homonym_cat = ["H1_a", "H1_b", "H2_a", "H2_b",
                "H3_a", "H3_b", "H4_a", "H4_b", "H5_a", "H5_b"]
 
+homonym_search = ["She is resting in the living room", "Go to the gym two times per week",
+                  "I want a reservation from a hotel", "Electric car factories are big", "A man is cutting a tree"]
+
+homonym_search_cat = ["H1", "H2", "H3", "H4", "H5"]
+
 # -----------------------------------------------------------------
 
 
@@ -45,8 +50,8 @@ homonym_cat = ["H1_a", "H1_b", "H2_a", "H2_b",
 
 # Search sentences:
 
-search_sentences = ["Tarasenko has been one of the NHL's leading scorers during his nine-year career, with 214 goals in 507 games.", "A political system is a framework which defines acceptable political methods within a society.",
-                    "This meal has summer dinner written all over it.", "Science is based on research, which is commonly conducted in academic and research institutions as well as in government agencies and companies", "Stocks mixed after Powell's inflation plan"]
+search_terms = ["Tarasenko has been one of the NHL's leading scorers during his nine-year career, with 214 goals in 507 games.", "A political system is a framework which defines acceptable political methods within a society.",
+                "This meal has summer dinner written all over it.", "Science is based on research, which is commonly conducted in academic and research institutions as well as in government agencies and companies", "Stocks mixed after Powell's inflation plan"]
 
 search_cat = ["SPORTS", "POLITICS", "FOOD", "SCIENCE", "FINANCE"]
 

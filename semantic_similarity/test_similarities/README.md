@@ -33,7 +33,7 @@ Different meaning:
 
 ## Homonyms (same spelling/words, but different meaning)
 
-**Homonym pairs:**
+**Homonyms:**
 
 * **H1_a:** "She lies on the couch"
 * **H1_b:** "She lies to the coach"

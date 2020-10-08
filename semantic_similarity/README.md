@@ -24,7 +24,7 @@
 
 Using "search" sentences to find sentences with the same topic from a dictionary
 
-**Search sentences:**
+**Search terms:**
 
 * **Sports:** "Tarasenko has been one of the NHL's leading scorers during his nine-year career, with 214 goals in 507 games."
 * **Politics:** "A political system is a framework which defines acceptable political methods within a society."
@@ -94,6 +94,22 @@ Using "search" sentences to find sentences with the same topic from a dictionary
 * **H4_b:** "Tesla plants are huge" (plant = factory)
 * **H5_a:** "I saw a man"
 * **H5_b:** "A man has a saw"
+
+### Results
+
+|                                                          TFIDF                                                           |                                                        Fasttext                                                         |                                                          LASER                                                           |                                                          BERT                                                           |                                                          USE                                                           |
+| :----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/TFIDF_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/FAST_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/LASER_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/BERT_homonym.svg"> | <img src="https://raw.githubusercontent.com/Kurkulis/nlp_notebooks/master/semantic_similarity/images/USE_homonym.svg"> |
+
+## Homonyms with search terms
+
+**Homonym search terms:**
+
+* **H1:** "She is resting in the living room"
+* **H2:** "Go to the gym two times per week"
+* **H3:** "I want a reservation from a hotel"
+* **H4:** "Electric car factories are big"
+* **H5:** "A man is cutting a tree"
 
 ### Results
 
