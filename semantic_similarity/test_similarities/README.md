@@ -46,7 +46,7 @@ Different meaning:
 * **H5_a:** "I saw a man"
 * **H5_b:** "A man has a saw"
 
-**Homonym search sentences:**
+**Homonym search terms:**
 
 * **H1:** "She is resting in the living room"
 * **H2:** "Go to the gym two times per week"
@@ -69,7 +69,7 @@ Different meaning:
 * **Finance:** "Dow futures up 200 points in overnight trading after the index briefly erases 2020 losses"
 * **Finance:** "Wednesday’s gains put the S&P 500 up more than 58% since hitting an intraday low on March 23."
 
-**Search sentences:**
+**Search terms:**
 
 * **Sports:** "Tarasenko has been one of the NHL's leading scorers during his nine-year career, with 214 goals in 507 games."
 * **Politics:** "A political system is a framework which defines acceptable political methods within a society."
