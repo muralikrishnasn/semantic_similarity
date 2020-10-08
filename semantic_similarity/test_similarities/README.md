@@ -20,47 +20,39 @@ Different meaning:
 
 ## Synonyms/Paraphrases (Different spelling, same meaning)
 
-1.
-* "The need for software developers has gone up by 50% in 5 years"
-* "The demand for programmers has doubled during the last five years"
-
-2.
-* "Personal computers entered the market in 1977"
-* "PCs came into shops in the late seventies"
-
-3.
-* "Symptoms of influenza include fever and nasal congestion."
-* "A stuffy nose and elevated temperature are signs you may have the flu."
-
-4.
-* "He has tons of stuff to throw away."
-* "He needs to get rid of a lot of junk."
-
-5.
-* "Her life spanned years of incredible change for women as they gained more rights than ever before."
-* "She lived through the exciting era of women's liberation."
+* **S1_a:** "The need for software developers has gone up by 50% in 5 years"
+* **S1_b:** "The demand for programmers has doubled during the last five years"
+* **S2_a:** "Personal computers entered the market in 1977"
+* **S2_b:** "PCs came into shops in the late seventies"
+* **S3_a:** "Symptoms of influenza include fever and nasal congestion."
+* **S3_b:** "A stuffy nose and elevated temperature are signs you may have the flu."
+* **S4_a:** "He has tons of stuff to throw away."
+* **S4_b:** "He needs to get rid of a lot of junk."
+* **S5_a:** "Her life spanned years of incredible change for women as they gained more rights than ever before."
+* **S5_b:** "She lived through the exciting era of women's liberation."
 
 ## Homonyms (same spelling/words, but different meaning)
 
-1.
-* "She lies on the couch"
-* "She lies to the coach"
+**Homonym pairs:**
 
-2.
-* "Train muscles twice a week"
-* "Train departs twice a week"
+* **H1_a:** "She lies on the couch"
+* **H1_b:** "She lies to the coach"
+* **H2_a:** "Train muscles twice a week"
+* **H2_b:** "Train departs twice a week"
+* **H3_a:** "I want to book a room"
+* **H3_b:** "I want to read a book in a room"
+* **H4_a:** "These plants are huge" (plant = flower etc)
+* **H4_b:** "Tesla plants are huge" (plant = factory)
+* **H5_a:** "I saw a man"
+* **H5_b:** "A man has a saw"
 
-3.
-* "I want to book a room"
-* "I want to read a book in a room"
+**Homonym search sentences:**
 
-4.
-* "These plants are huge" (plant = flower etc)
-* "Tesla plants are huge" (plant = factory)
-
-5.
-* "I saw a man" 
-* "A man has a saw"
+* **H1:** "She is resting in the living room"
+* **H2:** "Go to the gym two times per week"
+* **H3:** "I want a reservation from a hotel"
+* **H4:** "Electric car factories are big"
+* **H5:** "A man is cutting a tree"
 
 ## Semantic search
 
