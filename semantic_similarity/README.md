@@ -105,11 +105,11 @@ Using "search" sentences to find sentences with the same topic from a dictionary
 
 **Homonym search terms:**
 
-* **H1:** "She is resting in the living room"
-* **H2:** "Go to the gym two times per week"
-* **H3:** "I want a reservation from a hotel"
-* **H4:** "Electric car factories are big"
-* **H5:** "A man is cutting a tree"
+* **H1:** "She is resting in the living room" (targeting H1_a)
+* **H2:** "Go to the gym two times per week" (targeting H2_a)
+* **H3:** "I want a reservation from a hotel" (targeting H3_a)
+* **H4:** "Electric car factories are big" (targeting H4_b)
+* **H5:** "A man is cutting a tree" (targeting H5_b)
 
 ### Results
 
