@@ -12,7 +12,7 @@
 
 | Model        | Score |
 | ------------ | ----: |
-| TFIDF        |  71.4 |
+| TFIDF        |  76.9 |
 | Fasttext     |  55.3 |
 | LASER        |  69.4 |
 | SentenceBERT |  87.4 |
