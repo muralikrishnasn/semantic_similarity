@@ -10,13 +10,17 @@
 
 ## STS benchmark scores attained
 
-| Model        | Score |
-| ------------ | ----: |
-| TFIDF        |  76.9 |
-| Fasttext     |  55.3 |
-| LASER        |  69.4 |
-| SentenceBERT |  87.4 |
-| USE          |  80.1 |
+| Model             | Score | Time* |
+| ----------------- | ----: | ----: |
+| TFIDF             |  76.9 |  2.8s |
+| Fasttext          |  55.3 |  0.1s |
+| LASER             |  69.4 | 19.3s |
+| SentenceBERT      |  87.4 | 67.3s |
+| USE (DAN)         |  80.1 |  5.3s |
+| USE (Transformer) |  83.1 | 78.1s |
+
+
+(* Time it took to calculate the sentence embeddings for 1500 dev set sentence pairs with NVIDIA GeForce GTX 1060 3GB, Intel i5-6500 and 32gb memory.)
 
 ---
 
